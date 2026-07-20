@@ -12,5 +12,8 @@ git add .
 # 2. Commit the staged index to local history
 git commit -m "upd: descriptive message"
 
-# 3. Configure local Git client to cache PAT credentials persistently
+# 3. Push changes to server
+git push origin main 
+
+# Optional. Configure local Git client to cache PAT credentials for future
 git config --global credential.helper store
